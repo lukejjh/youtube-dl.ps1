@@ -1,0 +1,14 @@
+{
+  "YouTubeDLPath": "youtube-dl",
+  "AudioExtraction": false,
+  "RandomName": false,
+  "QuitWhenFinished": false,
+  "Sounds": false,
+  "WatchClipboard": false,
+  "SaveLocations": [
+    "C:\\Users\\Example\\Desktop",
+    "C:\\Users\\Example\\Downloads",
+    "D:\\YouTube",
+    "D:\\Music videos"
+  ]
+}
