@@ -16,10 +16,10 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "C:\path\to\youtube-dl.ps1"
 
 A *config.json* file with default settings will be generated alongside the script upon first run. If youtube-dl isn't found on your system, the script will offer to automatically download it for you.
 
-**Note:** FFmpeg may be required for some operations, such as audio extraction. You'll need to [download that manually](https://ffmpeg.org/download.html) for the time being.
+**Note:** FFmpeg may be required for some operations, such as audio extraction and merging formats. You'll need to [download that manually](https://ffmpeg.org/download.html) for the time being.
 
 ### Switching folders
-Populate the `SaveLocations` array in *config.json* with preset destination folders you'd like to use, with the first one being your preferred default. Save the config file and re-run the script. You can now switch between folders using their corresponding numbers at the prompt. To start a download, just paste the URL and hit Enter.
+Populate the `SaveLocations` array in *config.json* with preset destination folders you'd like to use, with the first one being your preferred default. You can refer to *[config.json.example](https://github.com/lukejjh/youtube-dl.ps1/blob/master/config.json.example)* to see what this should look like. Save the config file and re-run the script. You can now switch between folders using their corresponding numbers at the prompt. To start a download, just paste the URL and hit Enter.
 
 ![](./images/demo-1.gif)
 
